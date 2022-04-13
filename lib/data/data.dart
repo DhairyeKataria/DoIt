@@ -121,7 +121,7 @@ class Data extends ChangeNotifier {
   }
 
   void deleteAllChecked() {
-    for (int i = 0; i < _deletedTasksList.length; i++) {
+    for (int i = _deletedTasksList.length - 1; i >= 0; i--) {
       Task task = _deletedTasksList[i];
       if (task.isDone == true) {
         _deletedTasksList.removeAt(i);

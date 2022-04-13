@@ -18,9 +18,13 @@ class _TasksScreenState extends State<TasksScreen>
     with SingleTickerProviderStateMixin {
   bool _visible = false;
 
-  double opacityLevel = 1.0;
-
   bool _showDeleted = false;
+
+  @override
+  void initState() {
+    super.initState();
+    Provider.of<Data>(context, listen: false).restoreTasks();
+  }
 
   @override
   Widget build(BuildContext context) {
