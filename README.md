@@ -7,6 +7,8 @@ A new Flutter app to create a ToDo list and check to the items in list as you pr
 
 
 
+https://user-images.githubusercontent.com/50573685/163243781-94477b50-8b8e-49a4-b30e-7b2f70580d79.mov
+
 
 
 
@@ -20,6 +22,7 @@ A new Flutter app to create a ToDo list and check to the items in list as you pr
 
 - [x] Create tasks.
 - [x] Check off the tasks.
+- [x] All of the Data is stored locally on the device.
 - [x] Long Press to move the tasks from current list to Deleted tasks list.
 - [x] Tap the Delete icon to delete all the checked off tasks in the Deleted List.
 - [x] Long Press to permanently delete a single task in the Deleted tasks list.
